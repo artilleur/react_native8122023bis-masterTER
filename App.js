@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgb(144,238,144)' }}>
         {/* Your other components */}
         <View style={{ borderBottomWidth: 10, marginVertical: 10 }} />
         {liste.map((produit, index) => (
